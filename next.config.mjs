@@ -1,23 +1,5 @@
-// /** @type {import('next').NextConfig} */
-// const nextConfig = {
-//   eslint: {
-//     ignoreDuringBuilds: true,
-//   },
-//   typescript: {
-//     ignoreBuildErrors: true,
-//   },
-//   images: {
-//     unoptimized: true,
-//   },
-
-//   output: 'export',
-//   distDir: 'dist',
-// }
-
-// export default nextConfig
-
 const isProd = process.env.NODE_ENV === 'production';
-const repo = 'minidonas-riohacha';
+const repo = 'CAFE_PRODUCCIONES';
 
 export default {
   output: 'export',              // genera /out automáticamente

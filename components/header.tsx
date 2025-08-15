@@ -3,6 +3,7 @@
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Menu, X, Phone, MessageCircle } from "lucide-react"
+import Image from "next/image"
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -12,7 +13,14 @@ export function Header() {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex-shrink-0">
+          <div className="flex-shrink-0 flex items-center">
+            <Image
+              src="/images/cafe-producciones-logo.png"
+              alt="Café Producciones"
+              width={40}
+              height={40}
+              className="mr-3"
+            />
             <h1 className="text-2xl font-serif font-bold text-foreground">Café Producciones</h1>
           </div>
 

@@ -4,25 +4,25 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: oklch(0.925 0.01 85); /* Ivory #E6DED3 */
-  --foreground: oklch(0.2 0 0); /* Warm Black #1A1A1A */
-  --card: oklch(1 0 0); /* White for cards */
-  --card-foreground: oklch(0.2 0 0); /* Warm Black for card text */
-  --popover: oklch(1 0 0); /* White for popovers */
-  --popover-foreground: oklch(0.2 0 0); /* Warm Black for popover text */
-  --primary: oklch(0.7 0.08 75); /* Soft Gold #C79B63 */
-  --primary-foreground: oklch(0.2 0 0); /* Warm Black for primary text */
-  --secondary: oklch(0.925 0.01 85); /* Ivory for secondary elements */
-  --secondary-foreground: oklch(0.2 0 0); /* Warm Black for secondary text */
-  --muted: oklch(0.95 0.005 85); /* Light ivory for muted elements */
-  --muted-foreground: oklch(0.5 0 0); /* Medium gray for muted text */
-  --accent: oklch(0.7 0.08 75); /* Soft Gold for highlights */
-  --accent-foreground: oklch(0.2 0 0); /* Warm Black for accent text */
+  --background: oklch(0.98 0.005 45); /* Warm cream background */
+  --foreground: oklch(0.15 0.02 15); /* Deep charcoal for text */
+  --card: oklch(1 0 0); /* Pure white for cards */
+  --card-foreground: oklch(0.15 0.02 15); /* Deep charcoal for card text */
+  --popover: oklch(1 0 0); /* Pure white for popovers */
+  --popover-foreground: oklch(0.15 0.02 15); /* Deep charcoal for popover text */
+  --primary: oklch(0.45 0.15 15); /* Deep burgundy from logo */
+  --primary-foreground: oklch(0.98 0.005 45); /* Cream text on burgundy */
+  --secondary: oklch(0.95 0.01 45); /* Light cream for secondary elements */
+  --secondary-foreground: oklch(0.15 0.02 15); /* Deep charcoal for secondary text */
+  --muted: oklch(0.96 0.008 45); /* Very light cream for muted elements */
+  --muted-foreground: oklch(0.5 0.02 15); /* Medium gray for muted text */
+  --accent: oklch(0.55 0.12 20); /* Lighter burgundy for accents */
+  --accent-foreground: oklch(0.98 0.005 45); /* Cream text on accent */
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(1 0 0);
-  --border: oklch(0.7 0.08 75); /* Soft Gold for borders */
+  --border: oklch(0.85 0.02 45); /* Soft cream border */
   --input: oklch(1 0 0); /* White for input fields */
-  --ring: oklch(0.7 0.08 75 / 0.5); /* Soft Gold with transparency for focus rings */
+  --ring: oklch(0.45 0.15 15 / 0.5); /* Burgundy focus ring with transparency */
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
@@ -30,50 +30,50 @@
   --chart-5: oklch(0.769 0.188 70.08);
   --radius: 0.5rem; /* Slightly smaller radius for elegance */
   --sidebar: oklch(1 0 0);
-  --sidebar-foreground: oklch(0.2 0 0);
-  --sidebar-primary: oklch(0.7 0.08 75);
-  --sidebar-primary-foreground: oklch(0.2 0 0);
-  --sidebar-accent: oklch(0.7 0.08 75);
-  --sidebar-accent-foreground: oklch(0.2 0 0);
-  --sidebar-border: oklch(0.7 0.08 75);
-  --sidebar-ring: oklch(0.7 0.08 75 / 0.5);
+  --sidebar-foreground: oklch(0.15 0.02 15);
+  --sidebar-primary: oklch(0.45 0.15 15);
+  --sidebar-primary-foreground: oklch(0.98 0.005 45);
+  --sidebar-accent: oklch(0.55 0.12 20);
+  --sidebar-accent-foreground: oklch(0.98 0.005 45);
+  --sidebar-border: oklch(0.85 0.02 45);
+  --sidebar-ring: oklch(0.45 0.15 15 / 0.5);
   --font-playfair: "Playfair Display", serif;
   --font-inter: "Inter", sans-serif;
 }
 
 .dark {
-  --background: oklch(0.15 0 0); /* Dark warm black */
-  --foreground: oklch(0.925 0.01 85); /* Ivory for dark mode text */
-  --card: oklch(0.2 0 0); /* Warm black for cards */
-  --card-foreground: oklch(0.925 0.01 85); /* Ivory for card text */
-  --popover: oklch(0.2 0 0); /* Warm black for popovers */
-  --popover-foreground: oklch(0.925 0.01 85); /* Ivory for popover text */
-  --primary: oklch(0.7 0.08 75); /* Keep soft gold as primary */
-  --primary-foreground: oklch(0.2 0 0); /* Warm black for primary text */
-  --secondary: oklch(0.25 0 0); /* Slightly lighter warm black */
-  --secondary-foreground: oklch(0.925 0.01 85); /* Ivory for secondary text */
-  --muted: oklch(0.25 0 0); /* Muted warm black */
-  --muted-foreground: oklch(0.6 0 0); /* Medium gray for muted text */
-  --accent: oklch(0.7 0.08 75); /* Keep soft gold as accent */
-  --accent-foreground: oklch(0.2 0 0); /* Warm black for accent text */
+  --background: oklch(0.12 0.02 15); /* Deep burgundy-tinted black */
+  --foreground: oklch(0.95 0.01 45); /* Cream for dark mode text */
+  --card: oklch(0.18 0.02 15); /* Slightly lighter burgundy-black for cards */
+  --card-foreground: oklch(0.95 0.01 45); /* Cream for card text */
+  --popover: oklch(0.18 0.02 15); /* Burgundy-black for popovers */
+  --popover-foreground: oklch(0.95 0.01 45); /* Cream for popover text */
+  --primary: oklch(0.55 0.12 20); /* Lighter burgundy for dark mode primary */
+  --primary-foreground: oklch(0.12 0.02 15); /* Dark text on primary */
+  --secondary: oklch(0.22 0.02 15); /* Lighter burgundy-black for secondary */
+  --secondary-foreground: oklch(0.95 0.01 45); /* Cream for secondary text */
+  --muted: oklch(0.22 0.02 15); /* Muted burgundy-black */
+  --muted-foreground: oklch(0.65 0.01 45); /* Medium cream for muted text */
+  --accent: oklch(0.55 0.12 20); /* Lighter burgundy accent */
+  --accent-foreground: oklch(0.12 0.02 15); /* Dark text on accent */
   --destructive: oklch(0.396 0.141 25.723);
-  --destructive-foreground: oklch(0.925 0.01 85);
-  --border: oklch(0.3 0 0); /* Darker border for dark mode */
-  --input: oklch(0.25 0 0); /* Dark input background */
-  --ring: oklch(0.7 0.08 75 / 0.5); /* Soft gold focus ring */
+  --destructive-foreground: oklch(0.95 0.01 45);
+  --border: oklch(0.25 0.02 15); /* Darker border for dark mode */
+  --input: oklch(0.22 0.02 15); /* Dark burgundy input background */
+  --ring: oklch(0.55 0.12 20 / 0.5); /* Burgundy focus ring */
   --chart-1: oklch(0.488 0.243 264.376);
   --chart-2: oklch(0.696 0.17 162.48);
   --chart-3: oklch(0.769 0.188 70.08);
   --chart-4: oklch(0.627 0.265 303.9);
   --chart-5: oklch(0.645 0.246 16.439);
-  --sidebar: oklch(0.2 0 0);
-  --sidebar-foreground: oklch(0.925 0.01 85);
-  --sidebar-primary: oklch(0.7 0.08 75);
-  --sidebar-primary-foreground: oklch(0.2 0 0);
-  --sidebar-accent: oklch(0.25 0 0);
-  --sidebar-accent-foreground: oklch(0.925 0.01 85);
-  --sidebar-border: oklch(0.3 0 0);
-  --sidebar-ring: oklch(0.7 0.08 75 / 0.5);
+  --sidebar: oklch(0.18 0.02 15);
+  --sidebar-foreground: oklch(0.95 0.01 45);
+  --sidebar-primary: oklch(0.55 0.12 20);
+  --sidebar-primary-foreground: oklch(0.12 0.02 15);
+  --sidebar-accent: oklch(0.22 0.02 15);
+  --sidebar-accent-foreground: oklch(0.95 0.01 45);
+  --sidebar-border: oklch(0.25 0.02 15);
+  --sidebar-ring: oklch(0.55 0.12 20 / 0.5);
 }
 
 @theme inline {
